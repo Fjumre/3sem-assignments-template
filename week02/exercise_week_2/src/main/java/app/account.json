@@ -1,0 +1,105 @@
+
+
+[
+{
+  "firstName": "John",
+  "lastName": "Johnsen",
+  "birthDate": "1990-05-15",
+  "address":
+  {
+    "street": "123 Road St",
+    "city": "SmallTown",
+    "zipCode": 1234
+  },
+  "account":
+  {
+    "id": "ABC123",
+    "balance": "1000.50",
+    "isActive": true
+  }
+},
+  {
+    "firstName": "Egon",
+    "lastName": "Olsen",
+    "birthDate": "1955-05-05",
+    "address":
+    {
+      "street": "1 Prison Road",
+      "city": "Copenhagen",
+      "zipCode": 4555
+    },
+    "account":
+    {
+      "id": "DEF456",
+      "balance": "10.99",
+      "isActive": true
+    }
+  },
+  {
+    "firstName": "Niels",
+    "lastName": "Klausen",
+    "birthDate": "1988-11-12",
+    "address":
+    {
+      "street": "77 Holsmens Road",
+      "city": "Holm",
+      "zipCode": 7777
+    },
+    "account":
+    {
+      "id": "GHI789",
+      "balance": "6710.59",
+      "isActive": true
+    }
+  },
+  {
+    "firstName": "Harold",
+    "lastName": "Petersen",
+    "birthDate": "1975-01-29",
+    "address":
+    {
+      "street": "89 Heden ST",
+      "city": "AnyTown",
+      "zipCode": 3366
+    },
+    "account":
+    {
+      "id": "JKL566",
+      "balance": "56122.23",
+      "isActive": true
+    }
+  },
+  {
+    "firstName": "Kurt",
+    "lastName": "Vedergaard",
+    "birthDate": "1970-03-03",
+    "address":
+    {
+      "street": "55 Hovedgade",
+      "city": "Orting",
+      "zipCode": 8800
+    },
+    "account":
+    {
+      "id": "MNO334",
+      "balance": "5578.45",
+      "isActive": true
+    }
+  },{
+  "firstName": "Adam",
+  "lastName": "Adamsen",
+  "birthDate": "1955-11-18",
+  "address":
+  {
+    "street": "4 Norren ST",
+    "city": "Lemming",
+    "zipCode": 1122
+  },
+  "account":
+  {
+    "id": "PQR200",
+    "balance": "660.60",
+    "isActive": true
+  }
+}
+  ]

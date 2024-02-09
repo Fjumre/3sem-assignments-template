@@ -1,0 +1,31 @@
+
+    What does JSON stand for?
+    JSON stands for JavaScript Object Notation
+
+
+    What is the difference between JSON and XML?
+
+    JSON is a text format for storing and transporting data,
+    while XML is a markup language and file format for storing, transmitting,
+    and reconstructing arbitrary data. It defines a set of rules for
+    encoding documents in a format that is both human-readable and machine-readable.
+    JSON is typically more efficient and easier to use for transmitting
+    structured data, especially in web environments. XML, on the other
+    hand, offers greater depth and flexibility for document markup
+    and data definitions, making it suitable for applications that
+    require rigorous data validation or detailed document structuring
+
+    For what is JSON generally used for?
+
+    JSON is used to send data between computers and ease of parsing have
+    made it a widely adopted standard for data interchange on the web
+
+
+    Write down the 6 data types in JSON.
+
+    String, Number, Object, Array, Boolean, Null
+
+
+    Write down the 4 JSON syntax rules.
+
+
