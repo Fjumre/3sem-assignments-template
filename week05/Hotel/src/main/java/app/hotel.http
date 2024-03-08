@@ -1,0 +1,5 @@
+GET http://localhost:7007/api/vacation/hotels
+
+###
+
+GET http://localhost:7007/api/vacation/hotels/2

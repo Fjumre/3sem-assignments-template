@@ -1,0 +1,24 @@
+GET http://localhost:7007/api/dog
+###
+GET http://localhost:7007/api/dog/3
+###
+POST http://localhost:7007/api/dog
+
+{
+"id":7,
+"name": "Kali",
+"owner": "Line Gaardsen",
+"ownerPhoneNumber": 45612390,
+"spayedOrNeutered": "Yes"
+}
+
+###
+PUT http://localhost:7007/api/dog/3
+
+{
+"spayedOrNeutered": "Yes"
+}
+
+###
+
+DELETE http://localhost:7007/api/dog/5
