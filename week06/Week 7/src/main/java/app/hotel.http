@@ -1,0 +1,14 @@
+GET http://localhost:7007/api/vacation/hotels
+
+###
+
+GET http://localhost:7007/api/vacation/hotels/2
+
+###
+
+POST http://localhost:7007/api/vacation/hotels/add
+
+{"id": 100,
+"name": "Updated Hotel",
+"address": "1 Test St"
+}
