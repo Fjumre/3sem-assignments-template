@@ -1,0 +1,55 @@
+GET http://localhost:7007/api/vacation/hotels
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaG9tYXMgSGFydG1hbm4iLCJzdWIiOiJIZW5yaWsiLCJleHAiOjE3MTA4NjQ4NDksInJvbGVzIjoiLHVzZXIiLCJ1c2VybmFtZSI6IkhlbnJpayJ9.jTzJZYZLnUazwG0en8b_8k-wx3iNxoAqpe6JRSzUFbs
+
+###
+
+GET http://localhost:7007/api/vacation/hotels/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaG9tYXMgSGFydG1hbm4iLCJzdWIiOiJLZWxkIiwiZXhwIjoxNzEwODY2OTQ5LCJyb2xlcyI6IixhZG1pbix1c2VyIiwidXNlcm5hbWUiOiJLZWxkIn0.PNxXeqJG1Ql0GdpL8n_TCheF9ShIOJhE_Z8PC-WomVg
+
+
+###
+
+POST http://localhost:7007/api/vacation/hotels/add
+
+{"id": 100,
+"name": "Updated Hotel",
+"address": "1 Test St"
+}
+
+###
+
+POST http://localhost:7007/api/auth/login
+
+{
+"username": "Henrik",
+"password": "1234"
+}
+
+###
+
+GET http://localhost:7007/api/protected/user_demo
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaG9tYXMgSGFydG1hbm4iLCJzdWIiOiJIZW5yaWsiLCJleHAiOjE3MTA4NjQ4NDksInJvbGVzIjoiLHVzZXIiLCJ1c2VybmFtZSI6IkhlbnJpayJ9.jTzJZYZLnUazwG0en8b_8k-wx3iNxoAqpe6JRSzUFbs
+
+
+###
+GET http://localhost:7007/api/protected/admin_demo
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaG9tYXMgSGFydG1hbm4iLCJzdWIiOiJLZWxkIiwiZXhwIjoxNzEwODY2OTQ5LCJyb2xlcyI6IixhZG1pbix1c2VyIiwidXNlcm5hbWUiOiJLZWxkIn0.PNxXeqJG1Ql0GdpL8n_TCheF9ShIOJhE_Z8PC-WomVg
+
+###
+
+POST http://localhost:7007/api/auth/login
+
+{
+"username": "Keld",
+"password": "1234"
+}
+
+###
+
+
+POST http://localhost:7007/api/auth/register
+
+{
+"username": "Jimmy",
+"password": "1234"
+}
